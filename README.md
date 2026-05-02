@@ -11,7 +11,7 @@
 ```csharp
 public struct OnPlayerDashed { public int continusCount; public DashInfo info; }
 public struct OnPlayerGrabbed { public TargetInfo target; }
-public struct OnFLOPsChanged { public int before; public int after; public int changeAmount; }
+public struct OnCoinsChanged { public int before; public int after; public int changeAmount; }
 ```
 
 ## 기능
